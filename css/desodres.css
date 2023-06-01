@@ -94,23 +94,13 @@
     background-color: #81b442;
     width: 115px; 
     height: 60px;
-    /* transform: skew(14deg, 31deg); */
-    /* margin-bottom: 19px;
-    margin-top: 125px;
-    margin-right: 26px;
-    margin-left: 163px; */
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    /* -webkit-transform: skew(-45deg);
-	   -moz-transform: skew(-45deg);
-	     -o-transform: skew(-45deg); */
          transform: rotate(154deg);
          top: 20px;
          left: 80px;
          transition: 3.5s;
 }
 .buttons{
-    /* float: left; */
-	
    display: flex;
    position: absolute;
    top: 510px;
