@@ -1,27 +1,14 @@
-<<<<<<< HEAD
-/* .container {
-    width: 500px;
-    height: 500px;
-      background-color: #333;
-     margin: auto;
-     margin-top:130px;
-     transform: scale(1.1);
-     background: radial-gradient(ellipse at bottom, #cde7e0 -10%, #45a0c7 70%);
-  } */
-  
-  .triangle{
-=======
 .triangle{
->>>>>>> 12b814ebc49befddbf69b9aef6582543eec9ee94
     width: 0;
 	height: 0;
 	position: absolute;
     border-left: 50px solid #d2696a;
 	border-top: 50px solid transparent;
 	border-bottom: 50px solid transparent;
-    top: 152.4px;
-    left: 349.5px;
-    transform: rotate(225deg);
+    transition: 0.5s;
+    left: 247px;
+    top: 284px;
+    transform: rotate(180deg);
     
 
 }
@@ -32,10 +19,11 @@
     border-left: 50px solid #7e2b7c;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    top: 163px;
-    left: 622px;
-    transform: rotate(45deg);
-    
+    transition: 1s;
+    top: 234px;
+    left: 247px;
+    transform: rotate(0deg);
+
 }
 .triangle3{
     width: 0;
@@ -44,10 +32,10 @@
     border-left: 70px solid #189184;
     border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
-    top:188.5px;
-    left:227.5px;
-    transform: rotate(45deg)
-    
+    transition: 1.5s; 
+    top: 69px;
+    left: 138px;
+    transform: rotate(135deg);
 }
 
 .triangle4{
@@ -57,9 +45,11 @@
     border-left: 100px solid #FBC002;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    top: 120px;
-    left: 131px;
-    transform: rotate(225deg);
+    transition: 2s;
+    top: 340px;
+    right: 100px;
+    transform: rotate(135deg);
+   
 
 }
 .triangle5{
@@ -69,42 +59,36 @@
     border-left: 100px solid #b20000;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    top: 230px;
-    left: 60px;
-    transform: rotate(45deg);
-
+    transition: 2.5s;
+    left: 147px;
+    top: 234px;
+    transform: rotate(180deg);
 }
 .carre{
     position: absolute;
     background-color: #F48400;
     width: 70px;
-    height: 70px;
-    top: 184.5px;
-    left: 287px;
-    
+    height: 70px;;
+    transition: 3s;
+    top: 164px;
+    left: 247px;
 }
 .parallelogram{
     position: absolute;
     background-color: #81b442;
-    width: 285px; 
-    height: 71.5px;
+    width: 115px; 
+    height: 60px;
     transition: 3.5s;
     position: absolute;
     background-color: #81b442;
-    /* transform: skew(14deg, 31deg); */
-    /* margin-bottom: 19px;
-    margin-top: 125px;
-    margin-right: 26px;
-    margin-left: 163px; */
+    width: 115px; 
+    height: 60px;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    /* -webkit-transform: skew(-45deg);
-	   -moz-transform: skew(-45deg);
-	     -o-transform: skew(-45deg); */
-         transform: rotate(180deg);
-         top: 183.9px;
-         left: 356px;
+         transform: rotate(154deg);
+         top: 20px;
+         left: 80px;
          transition: 3.5s;
-
-
-         /* transform: scale(0.8); */
+    top: 82px;
+    left: 228px;
+    transform: rotate(154deg);
 }
