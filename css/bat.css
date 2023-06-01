@@ -6,7 +6,7 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
 
-  top: 174px;
+  top: 124px;
   left: 240px;
   transform: rotate(20deg);
 }
@@ -19,7 +19,7 @@
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   left: 289px;
-  top: 193px;
+  top: 143px;
   transform: rotate(200deg);
 }
 
@@ -30,7 +30,7 @@
   border-left: 70px solid #189184;
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
-  top: 313px;
+  top: 263px;
   left: 245px;
   transform: rotate(110deg);
 }
@@ -43,7 +43,7 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   left: 125px;
-  top: 150px;
+  top: 100px;
   transform: rotate(290deg);
 }
 
@@ -56,7 +56,7 @@
   border-bottom: 100px solid transparent;
   transform: rotate(290deg);
   left: 315px;
-  top: 220px;
+  top: 170px;
 }
 
 .carre {
@@ -65,6 +65,25 @@
   width: 70px;
   height: 70px;
   left: 236px;
-  top: 247px;
+  top: 197px;
   transform: rotate(65deg);
+}
+
+
+.parallelogram{
+  position: absolute;
+  background-color: #81b442;
+  width: 152px;
+  height: 60px;
+  transition: 3.5s;
+
+
+
+ 
+  clip-path: polygon(35% 0%, 100% 0%, 65% 100%, 0% 100%);
+ 
+       transform: rotate(65deg);
+       top: 278px;
+       left:130px;
+      
 }

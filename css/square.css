@@ -5,8 +5,8 @@
   border-left: 50px solid #d2696a;
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
-  top: 71px;
-  left: 327px;
+  top: 101px;
+  left: 303px;
   transform: rotate(180deg);
 }
 
@@ -17,9 +17,9 @@
   border-left: 50px solid #7e2b7c;
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
-  left: 249px;
-  top: 149px;
-  transform: rotate(270deg);
+  left: 223px;
+  top: 178px;
+  transform: rotate(270deg)
 }
 
 .triangle3 {
@@ -29,8 +29,8 @@
   border-left: 70px solid #189184;
   border-top: 70px solid transparent;
   border-bottom: 70px solid transparent;
-  top: 177px;
-  left: 318px;
+  top: 207px;
+  left: 294px;
   transform: rotate(45deg);
 }
 
@@ -41,8 +41,9 @@
   border-left: 100px solid #fbc002;
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
-  left: 172px;
-  top: 71px;
+  top: 101px;
+    left: 147px;
+    transform: rotate(0deg);
 }
 
 .triangle5 {
@@ -53,7 +54,8 @@
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   transform: rotate(90deg);
-  left: 225px;
+  left: 200px;
+    top: 50px;
 }
 
 .carre {
@@ -61,8 +63,9 @@
   background-color: #f48400;
   width: 70px;
   height: 70px;
-  left: 290px;
-  top: 137px;
+  left: 266px;
+  top: 167px;
+
   transform: rotate(45deg);
 }
 
@@ -70,12 +73,13 @@
   position: absolute;
   background-color: #81b442;
 
-  width: 45px;
-  height: 99px;
-  transform: skew(-45deg) rotate(-90deg);
-  left: 225px;
-  top: 199px;
+  width: 153px;
+  height: 45px;
+ 
+  left: 148px;
+  top: 256px;
+  clip-path: polygon(35% 0%, 100% 0%, 65% 100%, 0% 100%);
+  transform: rotate(359deg);
+ 
 
-  left: 179px;
-  top: 82px;
 }
