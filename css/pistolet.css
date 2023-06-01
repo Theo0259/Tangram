@@ -1,23 +1,13 @@
-.container {
-    width: 500px;
-    height: 500px;
-      background-color: #333;
-     margin: auto;
-     margin-top:130px;
-     transform: scale(1.1);
-     background: radial-gradient(ellipse at bottom, #cde7e0 -10%, #45a0c7 70%);
-  }
-  
-  .triangle{
+.triangle{
     width: 0;
 	height: 0;
 	position: absolute;
     border-left: 50px solid #d2696a;
 	border-top: 50px solid transparent;
 	border-bottom: 50px solid transparent;
-    top: 287.4px;
+    top: 152.4px;
     left: 349.5px;
-    transform: rotate(135deg);
+    transform: rotate(225deg);
     
 
 }
@@ -28,9 +18,9 @@
     border-left: 50px solid #7e2b7c;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    top: 150px;
-    left: 450px;
-    transform: rotate();
+    top: 163px;
+    left: 622px;
+    transform: rotate(45deg);
     
 }
 .triangle3{
@@ -40,7 +30,7 @@
     border-left: 70px solid #189184;
     border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
-    top:288.5px;
+    top:188.5px;
     left:227.5px;
     transform: rotate(45deg)
     
@@ -53,7 +43,7 @@
     border-left: 100px solid #FBC002;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    top: 220px;
+    top: 120px;
     left: 131px;
     transform: rotate(225deg);
 
@@ -65,7 +55,7 @@
     border-left: 100px solid #b20000;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    top: 330px;
+    top: 230px;
     left: 60px;
     transform: rotate(45deg);
 
@@ -75,17 +65,32 @@
     background-color: #F48400;
     width: 70px;
     height: 70px;
-    top: 284.5px;
+    top: 184.5px;
     left: 287px;
     
 }
 .parallelogram{
     position: absolute;
     background-color: #81b442;
-    width: 150px; 
-    height: 145px;
-    clip-path: polygon(75% 75%, 75% 25%, 100% 50%, 100% 100%);
-    top: 75px;
-    left: 252px;
-    transform: rotate(90deg);
+    width: 285px; 
+    height: 71.5px;
+    transition: 3.5s;
+    position: absolute;
+    background-color: #81b442;
+    /* transform: skew(14deg, 31deg); */
+    /* margin-bottom: 19px;
+    margin-top: 125px;
+    margin-right: 26px;
+    margin-left: 163px; */
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    /* -webkit-transform: skew(-45deg);
+	   -moz-transform: skew(-45deg);
+	     -o-transform: skew(-45deg); */
+         transform: rotate(180deg);
+         top: 183.9px;
+         left: 356px;
+         transition: 3.5s;
+
+
+         /* transform: scale(0.8); */
 }
