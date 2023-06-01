@@ -6,13 +6,50 @@
     margin-top: 30px;
     transform: scale(1.1);
     background: radial-gradient(ellipse at bottom, #cde7e0 -10%, #45a0c7 70%);
+    border: black 2px solid;
+    box-shadow:2px 2px 3px 1px rgba(73, 73, 73, 0.9)
+    ;
 }
 
 .tangram {
     padding: 20px 30px;
     position: relative;
+    
 }
 
+h1{
+  text-align: center;
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#T{
+  color: #b20000;
+}
+#A{
+  color: #F48400;;
+}
+
+#N{
+color: #189184;;
+}
+
+#G{
+  color: #7e2b7c;
+}
+
+#R{
+  color: #d2696a;
+}
+
+#AA{
+  color: #FBC002;
+}
+
+#M{
+  color: #81b442;
+}
 
 .buttons {
 
@@ -21,10 +58,11 @@
     column-gap: 5px;
    width: 550px;
    margin: auto;
+   justify-content: center;
 }
 
 button {
-    background-color: #ffffff;
+  
     border: 2px solid black;
     border-radius: 15px;
     color: #45a0c7;
@@ -119,6 +157,12 @@ body.active{
     .container{
         transform: scale(0.8);
         margin-top: 20px;
+    }
+    .buttons{
+      transform: scale(0.8);
+    }
+    h1{
+      font-size: 2.5em;
     }
 } 
 
