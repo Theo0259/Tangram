@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tangram</title>
-	
-	
-    <link  rel="stylesheet" href="css/fleche.css">
-    <link  rel="stylesheet" href="css/t-shirt.css">
-    <link id="stylepage" rel="stylesheet" href="css/desodres.css">
+	<link rel="stylesheet" href="css/bat.css" />
+	<link rel="stylesheet" href="css/square.css" />
+    <link rel="stylesheet" href="css/fleche.css" />
+    <link rel="stylesheet" href="css/t-shirt.css" />
+    <link id="stylepage" rel="stylesheet" href="css/desodres.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div class="tangram">
+        <div class="triangle"></div>
+        <div class="triangle2"></div>
+        <div class="carre"></div>
+        <div class="triangle3"></div>
+        <div class="triangle4"></div>
+        <div class="triangle5"></div>
+        <div class="parallelogram"></div>
+      </div>
+      <div class="buttons">
+        <button onclick="swapStyleSheet('css/desodres.css')" id="desodres">
+          Basic
+        </button>
+        <button onclick="swapStyleSheet('css/t-shirt.css')" id="t-shirt">
+          T-shirt
+        </button>
+        <button onclick="swapStyleSheet('css/fleche.css')" id="fleche">
+          Flêche
+        </button>
+        <button onclick="swapStyleSheet('css/mystere.css')" id="mystere">
+          Mystere
+        </button>
+		<button onclick="swapStyleSheet('css/bat.css')" id="bat">
+			Chauve-souris
+		  </button>
+		  <button onclick="swapStyleSheet('css/square.css')" id="square">
+			Carré
+		  </button>
+      </div>
+    </div>
 
-</head>
-<body>
-	
-	<div class="container">
-		<div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
-		<div class="tangram">
-			<div class="triangle"></div>
-			<div class="triangle2"></div>
-			<div class="carre"></div>
-			<div class="triangle3"></div>
-			<div class="triangle4"></div>
-			<div class="triangle5"></div>
-			<div class="parallelogram"></div>
-		</div>
-        <div class="buttons">
-		<button onclick="swapStyleSheet('css/desodres.css')"id="desodres">Basic</button>
-		<button onclick="swapStyleSheet('css/t-shirt.css')"id="t-shirt">T-shirt</button>
-		<button onclick="swapStyleSheet('css/fleche.css')" id="fleche">Flêche</button>
-		<button onclick="swapStyleSheet('css/mystere.css')"id="mystere">Mystere</button>
-		</div>
-	</div>
-	
-	
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
