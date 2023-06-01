@@ -6,6 +6,9 @@
     margin-top: 30px;
     transform: scale(1.1);
     background: radial-gradient(ellipse at bottom, #cde7e0 -10%, #45a0c7 70%);
+    border: black 2px solid;
+    box-shadow:2px 2px 3px 1px rgba(73, 73, 73, 0.9)
+    ;
 }
 
 .tangram {
@@ -55,10 +58,11 @@ color: #189184;;
     column-gap: 5px;
    width: 550px;
    margin: auto;
+   justify-content: center;
 }
 
 button {
-    background-color: #ffffff;
+  
     border: 2px solid black;
     border-radius: 15px;
     color: #45a0c7;
