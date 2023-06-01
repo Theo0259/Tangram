@@ -22,7 +22,13 @@ h1{
   font-family: 'Rubik Puddles', cursive;
   font-size: 4em;
   font-weight: bold;
+  transition: 1s;
 }
+
+ h1:hover{
+  transition: 1s;
+  transform: scale(1.1);
+} 
 
 #T{
   color: #b20000;
