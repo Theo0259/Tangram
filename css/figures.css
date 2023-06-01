@@ -45,6 +45,10 @@ h1{
   margin: 0;
   margin-bottom: 10px;
   transition: 1s;
+  display: block;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
  h1:hover{
