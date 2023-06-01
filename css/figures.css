@@ -146,6 +146,9 @@ body.active{
     .buttons{
       transform: scale(0.8);
     }
+    h1{
+      font-size: 2.5em;
+    }
 } 
 
 
