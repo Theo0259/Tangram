@@ -102,9 +102,10 @@
 }
 .buttons{
    display: flex;
+   flex-wrap: wrap;
    position: absolute;
    top: 510px;
-   top: -36px;
+   top: -53px;
 }
 button{
     background-color: #cb0b0b;
