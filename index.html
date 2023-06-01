@@ -1,111 +1,148 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tangram</title>
-    <link rel="stylesheet" href="css/lapin.css" />
-    <link rel="stylesheet" href="css/bougie.css" />
-    <link rel="stylesheet" href="css/rocket.css" />
-    <link rel="stylesheet" href="css/chopper.css" />
-    <link rel="stylesheet" href="css/bat.css" />
-    <link rel="stylesheet" href="css/square.css" />
-    <link rel="stylesheet" href="css/fleche.css" />
-    <link rel="stylesheet" href="css/t-shirt.css" />
-    <link rel="stylesheet" href="css/figures.css" />
-    <link id="stylepage" rel="stylesheet" href="css/desodres.css" />
-    <link rel="stylesheet" href="css/figures.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tangram</title>
+  <link rel="stylesheet" href="css/lapin.css" />
+  <link rel="stylesheet" href="css/bougie.css" />
+  <link rel="stylesheet" href="css/rocket.css" />
+  <link rel="stylesheet" href="css/chopper.css" />
+  <link rel="stylesheet" href="css/bat.css" />
+  <link rel="stylesheet" href="css/square.css" />
+  <link rel="stylesheet" href="css/fleche.css" />
+  <link rel="stylesheet" href="css/t-shirt.css" />
+  <link rel="stylesheet" href="css/figures.css" />
+  <link id="stylepage" rel="stylesheet" href="css/desodres.css" />
+  <link rel="stylesheet" href="css/figures.css" />
 
-    <div id="darkmode">
-        <i class="indicator"></i>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
 
+<body>
+
+  <div id="darkmode">
+    <i class="indicator"></i>
+
+  </div>
+
+  <h1>
+    <span id="T">T</span>
+    <span id="A">A</span>
+    <span id="N">N</span>
+    <span id="G">G</span>
+    <span id="R">R</span>
+    <span id="AA">A</span>
+    <span id="M">M</span>
+  </h1>
+
+  <div class="buttons">
+    <button onclick="swapStyleSheet('css/desodres.css')" id="desodres"> 
+      Basic
+    </button>
+    <button onclick="swapStyleSheet('css/t-shirt.css')" id="t-shirt">
+      T-shirt
+    </button>
+    <button onclick="swapStyleSheet('css/fleche.css')" id="fleche">
+      Flèche
+    </button>
+
+    <button onclick="swapStyleSheet('css/bat.css')" id="bat">
+      Chauve-souris
+    </button>
+    <button onclick="swapStyleSheet('css/bougie.css')" id="bougie">
+      Bougie
+    </button>
+    <button onclick="swapStyleSheet('css/lapin.css')" id="lapin">
+      Lapin
+    </button>
+
+    <button onclick="swapStyleSheet('css/square.css')" id="square">
+      Carré
+    </button>
+    <button onclick="swapStyleSheet('css/mystere.css')" id="mystere">
+      Mystère
+    </button>
+
+    <button onclick="swapStyleSheet('css/chopper.css')" id="chopper">
+      Chopper
+    </button>
+
+    <button onclick="swapStyleSheet('css/rocket.css')" id="rocket">
+      Rocket
+    </button>
+  </div>
+  <div id="container" class="container">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div class="tangram">
+      <div class="triangle"></div>
+      <div class="triangle2"></div>
+      <div class="carre"></div>
+      <div class="triangle3"></div>
+      <div class="triangle4"></div>
+      <div class="triangle5"></div>
+      <div class="parallelogram"></div>
     </div>
+  </div>
 
-    <h1>
-      <span id="T">T</span>
-      <span id="A">A</span>
-      <span id="N">N</span>
-      <span id="G">G</span>
-      <span id="R">R</span>
-      <span id="AA">A</span>
-      <span id="M">M</span>
-    </h1>
+  <br>
+  <br>
+  <div id="description" class="description">
+    <p>
+      Le but du jeu de Tangram est de reproduire des dessins avec les 7 pièces contenues dans un carré.
+    </p>
+    <p>
+      Les règles sont simples: toutes les pièces de tangram que vous découperez doivent être utilisées. Elles doivent se
+      toucher mais ne peuvent pas se chevaucher. Elles doivent être réorganisées pour former une image complète.
+    </p>
+    <p>
+      C'est un excellent exercice pour les enfants de maternelle, MS et GS ainsi que pour les DWWM.
+    </p>
+  </div>
 
-    <div class="buttons">
-      <button onclick="swapStyleSheet('css/desodres.css')" id="desodres">
-        Basic
-      </button>
-      <button onclick="swapStyleSheet('css/t-shirt.css')" id="t-shirt">
-        T-shirt
-      </button>
-      <button onclick="swapStyleSheet('css/fleche.css')" id="fleche">
-        Flêche
-      </button>
 
-      <button onclick="swapStyleSheet('css/bat.css')" id="bat">
-        Chauve-souris
-      </button>
-      <button onclick="swapStyleSheet('css/bougie.css')" id="bougie">
-        Bougie
-      </button>
-      <button onclick="swapStyleSheet('css/lapin.css')" id="lapin">
-        Lapin
-      </button>
-
-      <button onclick="swapStyleSheet('css/square.css')" id="square">
-        Carré
-      </button>
-      <button onclick="swapStyleSheet('css/mystere.css')" id="mystere">
-        Mystère
-      </button>
-
-      <button onclick="swapStyleSheet('css/chopper.css')" id="chopper">
-        Chopper
-      </button>
-
-      <button onclick="swapStyleSheet('css/rocket.css')" id="rocket">
-        Rocket
-      </button>
-    </div>
-    <div id="container" class="container">
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-      <div class="tangram">
-        <div class="triangle"></div>
-        <div class="triangle2"></div>
-        <div class="carre"></div>
-        <div class="triangle3"></div>
-        <div class="triangle4"></div>
-        <div class="triangle5"></div>
-        <div class="parallelogram"></div>
-      </div>
-    </div>
-    
-    <br>
-    <br>
-<div id="description" class="description">
-  <p>
-    Le but du jeu de Tangram est de reproduire des dessins avec les 7 pièces contenues dans un carré.
-  </p>
-  <p>
-    Les règles sont simples: toutes les pièces de tangram que vous découperez doivent être utilisées. Elles doivent se toucher mais ne peuvent pas se chevaucher. Elles doivent être réorganisées pour former une image complète.
-  </p>
-  <p>
-    C'est un excellent exercice pour les enfants de maternelle, MS et GS ainsi que pour les DWWM.
-  </p>
+      
+  <footer>
+    <div id="title">
+<h2>Creators</h2>
 </div>
-    <script src="app.js"></script>
+    <div>
+    <p>Maryam</p>
+    <p><a href="https://github.com/Maryam597">maryam.dri@hotmail.fr</a></p>
+  </div>
 
-  </body>
+  <div>
+    <p>Charles</p>
+    <p><a href="https://github.com/Charlie-Chap">charlesjserin@gmail.com </a></p>
+  </div>
+
+  <div>
+    <p>Theo</p>
+    <p><a href="https://github.com/Theo0259">theodewulf.pro@gmail.com</a></p>
+  </div>
+
+  <div>
+    <p>Alexis</p>
+    <p><a href="https://github.com/Alexisdelecroix">d-alexis@hotmail.fr</a></p>
+</div>
+
+  </footer>
+
+
+
+
+
+  <script src="app.js"></script>
+
+</body>
+
 </html>
