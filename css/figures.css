@@ -11,7 +11,7 @@
 
 .description.active  {
 
-    color: #f3f0f0;
+    color: #000000;
 }
 
 .container {
@@ -197,6 +197,14 @@ body.active{
     .description{
       width: 400px;
     }
+} 
+
+@media screen and (max-width: 500px) {
+
+  .container{
+      transform: scale(0.7);
+      margin-top: 20px;
+  }
 } 
 
 
