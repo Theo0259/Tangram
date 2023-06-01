@@ -14,8 +14,42 @@
 .tangram {
     padding: 20px 30px;
     position: relative;
+    
 }
 
+h1{
+  text-align: center;
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+#T{
+  color: #b20000;
+}
+#A{
+  color: #F48400;;
+}
+
+#N{
+color: #189184;;
+}
+
+#G{
+  color: #7e2b7c;
+}
+
+#R{
+  color: #d2696a;
+}
+
+#AA{
+  color: #FBC002;
+}
+
+#M{
+  color: #81b442;
+}
 
 .buttons {
 
