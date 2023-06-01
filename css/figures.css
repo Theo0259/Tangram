@@ -1,3 +1,14 @@
+.description {
+ color: #000000;
+ font-size: 20px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: justify;
+ width: 550px;
+ margin:auto;
+
+}
+
+
 .container {
     width: 500px;
     height: 500px;
@@ -111,6 +122,9 @@ body.active{
     }
     .buttons{
       transform: scale(0.8);
+    }
+    .description{
+      width: 400px;
     }
 } 
 
