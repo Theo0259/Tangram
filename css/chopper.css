@@ -20,9 +20,9 @@
     border-left: 50px solid #d2696a;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    transform: rotate(45deg);
-    left: 349px;
-    top: 132px;
+    transform: rotate(90deg);
+    left: 113px;
+    top: 275px;
 
 
 }
@@ -34,9 +34,9 @@
     border-left: 50px solid #7e2b7c;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    transform: rotate(136deg);
-    left: 386px;
-    top: 132px;
+    transform: rotate(270deg);
+    left: 164px;
+    top: 275px;
 
 }
 
@@ -48,8 +48,8 @@
     border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
     transform: rotate(270deg);
-    left: 393px;
-    top: 237px;
+    left: 326px;
+    top: 93px;
 
 }
 
@@ -60,9 +60,9 @@
     border-left: 100px solid #FBC002;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    transform: rotate(45deg);
-    left: 369px;
-    top: 353px;
+    transform: rotate(180deg);
+    left: 189px;
+    top: 199px;
 
 
 }
@@ -74,10 +74,9 @@
     border-left: 100px solid #b20000;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    transform: rotate(225deg);
-    left: 296px;
-    top: 280px;
-
+    left: 290px;
+    top: 198px;
+    transform: rotate(360deg)
 }
 
 .carre {
@@ -85,9 +84,9 @@
     background-color: #F48400;
     width: 70px;
     height: 70px;
-    transform: rotate(90deg);
-    left: 357px;
-    top: 201px;
+    transform: rotate(135deg);
+    left: 27px;
+    top: 242px;
 
 }
 
@@ -102,9 +101,9 @@
     width: 115px; 
     height: 60px;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-         transform: rotate(154deg);
-         top: 20px;
-         left: 80px;
+    transform: rotate(51deg);
+    top: 141px;
+    left: 173px;
          transition: 3.5s;
 }
 

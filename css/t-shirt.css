@@ -17,7 +17,7 @@
     width: 0;
 	height: 0;
 	position: absolute;
-    left: 165px;
+    left: 215px;
     top: 158px;
     border-left: 50px solid #d2696a;
 	border-top: 50px solid transparent;
@@ -31,7 +31,7 @@
     width: 0;
 	height: 0;
 	position: absolute;
-    left: 274px;
+    left: 324px;
     top: 232px;
     border-left: 50px solid #7e2b7c;
     border-top: 50px solid transparent;
@@ -44,7 +44,7 @@
 	height: 0;
 	position: absolute;
     top: 155px;
-    left: 215px;
+    left: 265px;
     border-left: 70px solid #189184;
     border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
@@ -57,7 +57,7 @@
     width: 0;
 	height: 0;
     top: 200px;
-    left: 82px;
+    left: 132px;
 	position: absolute;
     border-left: 100px solid #FBC002;
     border-top: 100px solid transparent;
@@ -71,7 +71,7 @@
     /* width: 0;
 	/* height: 0; */
     top: 275px;
-    left: 156px;
+    left: 206px;
 	position: absolute;
     border-left: 100px solid #b20000;
     border-top: 100px solid transparent;
@@ -86,7 +86,7 @@
     width: 70px;
     height: 70px;
     top: 190px;
-    left: 97px;
+    left: 147px;
     transition: 3s;
     transform: rotate(90deg);
 
@@ -108,7 +108,7 @@
 	     -o-transform: skew(-45deg); */
          transform: rotate(154deg);
          top: 212px;
-         left: -3px;
+         left: 47px;
          transition: 3.5s;
     
 }
@@ -117,7 +117,8 @@
 	
    display: flex;
    position: absolute;
-   top: -36px;
+   top: -53px;
+   flex-wrap: wrap;
 }
 button{
     background-color: #cb0b0b;
