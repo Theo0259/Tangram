@@ -1,0 +1,81 @@
+.triangle{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 50px solid #d2696a;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+    top: 287.4px;
+    left: 349.5px;
+    transform: rotate(135deg);
+    
+
+}
+.triangle2{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 50px solid #7e2b7c;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    top: 150px;
+    left: 450px;
+    transform: rotate();
+    
+}
+.triangle3{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 70px solid #189184;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    top:288.5px;
+    left:227.5px;
+    transform: rotate(45deg)
+    
+}
+
+.triangle4{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 100px solid #FBC002;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    top: 220px;
+    left: 131px;
+    transform: rotate(225deg);
+
+}
+.triangle5{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 100px solid #b20000;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    top: 330px;
+    left: 60px;
+    transform: rotate(45deg);
+
+}
+.carre{
+    position: absolute;
+    background-color: #F48400;
+    width: 70px;
+    height: 70px;
+    top: 284.5px;
+    left: 287px;
+    
+}
+.parallelogram{
+    position: absolute;
+    background-color: #81b442;
+    width: 150px; 
+    height: 145px;
+    clip-path: polygon(75% 75%, 75% 25%, 100% 50%, 100% 100%);
+    top: 75px;
+    left: 252px;
+    transform: rotate(90deg);
+}
