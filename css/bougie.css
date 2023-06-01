@@ -10,28 +10,30 @@
      background: radial-gradient(ellipse at bottom, #cde7e0 -10%, #45a0c7 70%);
   } */
   
-  /* .triangle{
+.triangle{
     width: 0;
 	height: 0;
 	position: absolute;
     border-left: 50px solid #d2696a;
 	border-top: 50px solid transparent;
 	border-bottom: 50px solid transparent;
-    top: 430px;
+    top: 330px;
     left: 200px;
+    transform: rotate(0deg);
     
 
 }
 
 .triangle2{
-    width: 0;
+    /* width: 0;
 	height: 0;
 	position: absolute;
     border-left: 50px solid #7e2b7c;
     border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    top: 330px;
+    border-bottom: 50px solid transparent; */
+    top: 229.5px;
     left: 200px;
+    transform: rotate(0deg);
 }
 .triangle3{
     width: 0;
@@ -40,7 +42,7 @@
     border-left: 70px solid #189184;
     border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
-    top: 275px;
+    top: 175.5px;
     left: 215px;
     transform: rotate(90deg);
     
@@ -53,7 +55,7 @@
     border-left: 100px solid #FBC002;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    top: 430px;
+    top: 330px;
     left: 200px;
     transform: rotate(-90deg);
 
@@ -66,7 +68,7 @@
     border-left: 100px solid #b20000;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    top: 330px;
+    top: 230px;
     left: 200px;
     transform: rotate(180deg);
 
@@ -76,17 +78,30 @@
     background-color: #F48400;
     width: 70px;
     height: 70px;
-    top: 239.5px;
+    top: 140px;
     left: 220px;
 }
 .parallelogram{
+    /* position: absolute;
+    background-color: #81b442;
+    width: 115px; 
+    height: 60px;
+    transition: 3.5s;
     position: absolute;
     background-color: #81b442;
-    width: 64px; 
-    height: 70px;
-    top: 150px;
-    left: 200px;
-    transform: skew(40deg) rotate(0deg);
-
-    
-} */
+    width: 115px; 
+    height: 60px; */
+    /* transform: skew(14deg, 31deg); */
+    /* margin-bottom: 19px;
+    margin-top: 125px;
+    margin-right: 26px;
+    margin-left: 163px; */
+    /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+    /* -webkit-transform: skew(-45deg);
+	   -moz-transform: skew(-45deg);
+	     -o-transform: skew(-45deg); */
+         transform: rotate(150deg);
+         top: 50px;
+         left: 220px;
+         /* transition: 3.5s; */
+}
