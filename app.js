@@ -1,10 +1,18 @@
-// let tab = [ "carre", "desodre" ];
-
-// tab.forEach(element => {
-    
-//     document.getElementById("nav").innerHTML += `<input onclick="swapStyleSheet('${element}.css')" id="${element}" type="button" value="${element}">`;
-// });
-
 function swapStyleSheet(sheet){
 	document.getElementById('stylepage').setAttribute('href', sheet);
 }
+
+
+      const body = document.querySelector('body');
+      const darkmode = document.getElementById('darkmode');
+      const container =document.getElementById('container');
+	  const description =document.getElementById('description');
+
+
+      darkmode.onclick = function(){
+      body.classList.toggle('active');
+      darkmode.classList.toggle('active');
+      container.classList.toggle('active');
+	  description.classList.toggle('active');
+
+} 
