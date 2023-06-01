@@ -20,7 +20,7 @@
   </head>
   <body>
 
-    <div id="toggle">
+    <div id="darkmode">
         <i class="indicator"></i>
 
     </div>
@@ -36,7 +36,7 @@
           Flêche
         </button>
 
-		  </button>
+		  
 		<button onclick="swapStyleSheet('css/bat.css')" id="bat">
 			Chauve-souris
 		  </button>
@@ -63,7 +63,7 @@
           </button>
     
     </div>
-    <div class="container">
+    <div id="container" class="container">
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
@@ -83,10 +83,13 @@
 
     <script>
       const body = document.querySelector('body');
-      const toggle = document.getElementById('toggle');
-      toggle.onclick = function(){
-        toggle.classList.toggle('active');
-        body.classList.toggle('active');
+      const darkmode = document.getElementById('darkmode');
+      const container =document.getElementById('container');
+
+      darkmode.onclick = function(){
+      body.classList.toggle('active');
+      darkmode.classList.toggle('active');
+      container.classList.toggle('active');
 } 
     </script>
 
