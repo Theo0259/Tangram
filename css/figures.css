@@ -1,124 +1,39 @@
-/* .container {
-  width: 500px;
+.container {
+    width: 500px;
     height: 500px;
     background-color: #333;
-   margin: auto;
-   margin-top:130px;
-   transform: scale(1.1);
-   background: radial-gradient(ellipse at bottom, #cde7e0 -10%, #45a0c7 70%);
+    margin: auto;
+    margin-top: 130px;
+    transform: scale(1.1);
+    background: radial-gradient(ellipse at bottom, #cde7e0 -10%, #45a0c7 70%);
 }
-.tangram{
+
+.tangram {
     padding: 20px 30px;
     position: relative;
-} */
-
-.triangle{
-    width: 0;
-	height: 0;
-	position: absolute;
-    border-left: 50px solid #d2696a;
-	border-top: 50px solid transparent;
-	border-bottom: 50px solid transparent;
-    transition: 0.5s;
-    left: 80px;
-    top: 200px;
-    /* bottom: 500px; */
-    /* transform: rotate(30deg); */
-    
-
-}
-.triangle2{
-    width: 0;
-	height: 0;
-	position: absolute;
-    border-left: 50px solid #7e2b7c;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    transition: 1s;
-    top: 330px;
-    left: 50px;
-    /* transform: rotate(60deg); */
-}
-.triangle3{
-    width: 0;
-	height: 0;
-	position: absolute;
-    border-left: 70px solid #189184;
-    border-top: 70px solid transparent;
-    border-bottom: 70px solid transparent;
-    transition: 1.5s; 
-    top: 250px;
-    left: 250px;
 }
 
-.triangle4{
-    width: 0;
-	height: 0;
-	position: absolute;
-    border-left: 100px solid #FBC002;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    transition: 2s;
-    top: 20px;
-  right: 100px;
-   
 
-}
-.triangle5{
-    width: 0;
-	height: 0;
-	position: absolute;
-    border-left: 100px solid #b20000;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    transition: 2.5s;
-    left: 250px;
-    top: 100px;
-}
-.carre{
+.buttons {
+
+    display: flex;
     position: absolute;
-    background-color: #F48400;
-    width: 70px;
-    height: 70px;;
-    transition: 3s;
-    top: 10px;
-    left: 200px;
+    top: 510px;
+    top: -36px;
 }
-.parallelogram{
-    position: absolute;
-    background-color: #81b442;
-    width: 115px; 
-    height: 60px;
-    transition: 3.5s;
-    position: absolute;
-    background-color: #81b442;
-    width: 115px; 
-    height: 60px;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-         transform: rotate(154deg);
-         top: 20px;
-         left: 80px;
-         transition: 3.5s;
-}
-/* .buttons{
-   display: flex;
-   flex-wrap: wrap;
-   position: absolute;
-   top: 510px;
-   top: -53px;
-}
-button{
+
+button {
     background-color: #cb0b0b;
-	border: none;
-	color: #fff;
-	font-size: 14px;
-	padding: 10px 15px;
-	text-align: left;
-	margin-bottom: 4px;
-	cursor: pointer;
-} */
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    text-align: left;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .container{
         transform: scale(0.8);
@@ -191,5 +106,4 @@ button{
     to {
       transform: translateY(-2000px);
     }
-  } */
-  
+  }

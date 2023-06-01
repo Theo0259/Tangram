@@ -1,4 +1,17 @@
+/* .container {
+    width: 500px;
+    height: 500px;
+    background-color: #333;
+    margin: auto;
+    margin-top: 130px;
+    transform: scale(1.1);
+    background: radial-gradient(ellipse at bottom, #cde7e0 -10%, #45a0c7 70%);
+}
 
+.tangram {
+    padding: 20px 30px;
+    position: relative;
+} */
 
 .triangle {
     width: 0;
@@ -101,8 +114,9 @@
 
     display: flex;
     position: absolute;
+    flex-wrap: wrap;
     top: 510px;
-    top: -36px;
+    top: -53px;
 }
 
 button {
