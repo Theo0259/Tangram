@@ -1,4 +1,4 @@
-.container {
+/* .container {
   width: 500px;
   height: 500px;
     background-color: #333;
@@ -10,7 +10,7 @@
 .tangram{
     padding: 20px 30px;
     position: relative;
-}
+} */
 
 .triangle{
     width: 0;
@@ -108,13 +108,11 @@
          left: 80px;
          transition: 3.5s;
 }
-.buttons{
-    /* float: left; */
+/* .buttons{
 	
    display: flex;
-   flex-wrap: wrap;
    position: absolute;
-   top: -53px;
+   top: -36px;
 }
 button{
     background-color: #cb0b0b;
@@ -122,13 +120,12 @@ button{
 	color: #fff;
 	font-size: 14px;
 	padding: 10px 15px;
-	/* width: 140px; */
 	text-align: left;
 	margin-bottom: 4px;
 	cursor: pointer;
-}
+} */
 
-
+/* 
 
 #stars {
     width: 1px;
@@ -203,4 +200,4 @@ button{
         transform: scale(0.8);
         margin-top: 20px;
     }
-} 
+}  */
