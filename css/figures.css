@@ -109,6 +109,9 @@ body.active{
         transform: scale(0.8);
         margin-top: 20px;
     }
+    .buttons{
+      transform: scale(0.8);
+    }
 } 
 
 
