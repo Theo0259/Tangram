@@ -9,6 +9,11 @@
 }
 
 
+.description.active  {
+
+    color: #737373;
+}
+
 .container {
     width: 500px;
     height: 500px;
