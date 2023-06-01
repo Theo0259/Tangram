@@ -22,6 +22,8 @@ h1{
   font-family: 'Rubik Puddles', cursive;
   font-size: 4em;
   font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 #T{
