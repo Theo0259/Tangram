@@ -34,6 +34,7 @@
 }
 
 h1{
+
   text-align: center;
   font-family: 'Rubik Puddles', cursive;
   font-size: 4em;
@@ -41,9 +42,14 @@ h1{
   margin: 0;
   margin-bottom: 10px;
   transition: 1s;
+ max-width: 450px;
+ margin-left: auto;
+ margin-right: auto;
+
+
 }
 
- h1:hover{
+h1:hover{
   transition: 1s;
   transform: scale(1.1);
 } 
