@@ -177,7 +177,7 @@ body.active{
         margin-top: 20px;
     }
     .buttons{
-      transform: scale(0.8);
+      width: 350px;
     }
     h1{
       font-size: 2.5em;
@@ -198,7 +198,7 @@ body.active{
   #stars:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    /* top: 2000px; */
     width: 1px;
     height: 1px;
     background: transparent;
@@ -215,7 +215,7 @@ body.active{
   #stars2:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    /* top: 2000px; */
     width: 2px;
     height: 2px;
     background: transparent;
@@ -232,7 +232,7 @@ body.active{
   #stars3:after {
     content: " ";
     position: absolute;
-    top: 2000px;
+    /* top: 2000px; */
     width: 3px;
     height: 3px;
     background: transparent;
