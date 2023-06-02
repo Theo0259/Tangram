@@ -30,6 +30,10 @@ background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
 }
 
 
+.position{
+  display: flex;
+}
+
 
 
 .tangram {
