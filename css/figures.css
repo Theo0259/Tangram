@@ -37,6 +37,10 @@ background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
     
 }
 
+.position{
+  display: flex;
+}
+
 h1{
 
   text-align: center;
@@ -46,10 +50,11 @@ h1{
   margin: 0;
   margin-bottom: 10px;
   transition: 1s;
-  display: block;
-  width: 450px;
+  /* display: block; */
+  max-width: 450px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
 }
 
 h1:hover{
@@ -105,7 +110,9 @@ button {
     margin-bottom: 4px;
     cursor: pointer;
     font-weight: bold;
-    box-shadow:2px 2px 2px 2px rgba(255, 255, 255, 0.9)
+    box-shadow:2px 2px 2px 2px rgba(255, 255, 255, 0.9);
+    margin-bottom: 15px;
+    
 }
 button:hover{
   background-color: #45a0c7;
@@ -209,6 +216,7 @@ body.active{
 
   .container{
       transform: scale(0.7);
+      margin: 0;
       margin-top: 20px;
       
   }
