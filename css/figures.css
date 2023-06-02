@@ -187,6 +187,11 @@ body.active{
 -moz-box-shadow: 5px 5px 10px -1px rgba(156,148,148,0.75);
 }
 
+a {
+  text-decoration: none;
+  color: #5599be;
+
+}
 
 footer {
   /* background-color: #4c4177;
@@ -203,7 +208,10 @@ background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
   flex-wrap: wrap;
     }
 
-    
+    footer.active a {
+      color: #223a47;
+    }
+
     footer.active{ 
       width: 100%;
       display: flex;
