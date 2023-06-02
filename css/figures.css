@@ -15,7 +15,7 @@
 }
 
 .container {
-    width: 500px;
+    max-width: 500px;
     height: 500px;
     background-color: #333;
     margin: auto;
@@ -210,7 +210,11 @@ body.active{
   .container{
       transform: scale(0.7);
       margin-top: 20px;
+      
   }
+
+  
+ 
 } 
 
 
