@@ -9,6 +9,36 @@
 }
 
 
+.titre{
+ 
+ display: flex;
+ justify-content: center;
+  
+}
+
+.position{
+ 
+  
+}
+
+h1{
+
+
+  font-family: 'Rubik Puddles', cursive;
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+  transition: 1s;
+ 
+}
+
+h1:hover{
+  transition: 1s;
+  transform: scale(1.1);
+} 
+
+
 .description.active  {
 
     color: #000;
@@ -20,7 +50,6 @@
     height: 500px;
     background-color: #333;
     margin: auto;
-    margin-top: 30px;
     transform: scale(1.1);
     background-color: #090947;
 background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
@@ -30,9 +59,6 @@ background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
 }
 
 
-.position{
-  display: flex;
-}
 
 
 
@@ -42,25 +68,7 @@ background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
     
 }
 
-h1{
 
-  text-align: center;
-  font-family: 'Rubik Puddles', cursive;
-  font-size: 4em;
-  font-weight: bold;
-  margin: 0;
-  margin-bottom: 10px;
-  transition: 1s;
-  display: block;
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1:hover{
-  transition: 1s;
-  transform: scale(1.1);
-} 
 
 #T{
   color: #b20000;
@@ -97,6 +105,7 @@ color: #189184;;
    width: 550px;
    margin: auto;
    justify-content: center;
+   margin-bottom: 25px;
 }
 
 button {
@@ -105,9 +114,9 @@ button {
     border-radius: 15px;
     color: #45a0c7;
     font-size: 14px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     text-align: left;
-    margin-bottom: 4px;
+    margin-bottom: 15px;
     cursor: pointer;
     font-weight: bold;
     box-shadow:2px 2px 2px 2px rgba(255, 255, 255, 0.9)
@@ -124,8 +133,9 @@ button:hover{
 #darkmode {
     position: relative;
     display: block;
-    width: 120px;
-    height: 50px;
+    top: 25px;
+    width: 82px;
+    height: 32px;
     border-radius: 160px;
     cursor: pointer;
     background: #fff;
@@ -133,6 +143,7 @@ button:hover{
     box-shadow: inset 0 8px 60px rgba(0,0,0,0.1);
                 inset: 0 8px 8px rgba(0,0,0,0.1);
                 inset: 0 -4px -4px rgba(0,0,0,0.1);
+                transform: rotate(90deg);
 }
 
 #darkmode.active{
@@ -146,10 +157,10 @@ button:hover{
 
 #darkmode .indicator{
     position: absolute;
-    top: 0px;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    top: 2.5px;
+    left: 3px;
+    width: 25px;
+    height: 25px;
     background: linear-gradient(to bottom, #ffffff, #ffffff);
     border-radius: 50%;
     transform: scale(0.9);
@@ -162,7 +173,7 @@ button:hover{
 
 
 #darkmode.active .indicator {
-    left: 68px;
+    left: 55px;
     background: linear-gradient(to bottom, #a9a7c0, #acacbd);
     box-shadow: inset 0 8px 20px rgba(0,0,0,0.1);
                 inset: 0 4px 4px rgba(255,255,255,1);
@@ -187,6 +198,11 @@ body.active{
 -moz-box-shadow: 5px 5px 10px -1px rgba(156,148,148,0.75);
 }
 
+a {
+  text-decoration: none;
+  color: #5599be;
+
+}
 
 footer {
   /* background-color: #4c4177;
@@ -203,7 +219,10 @@ background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
   flex-wrap: wrap;
     }
 
-    
+    footer.active a {
+      color: #223a47;
+    }
+
     footer.active{ 
       width: 100%;
       display: flex;
@@ -230,14 +249,31 @@ text-align: center;
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 
     .container{
-        transform: scale(0.8);
-        margin-top: 20px;
+        transform: scale(0.9);
+        /* margin-top: 20px; */
     }
+   #darkmode{
+    top: 10px;
+    width: 50px;
+    height: 22px;
+   }
+   #darkmode .indicator{
+    width: 15px;
+    height: 15px;
+    left: 2px;
+    top: 3px;
+   }
+   #darkmode.active .indicator{
+    left: 33px;
+   }
+  
     .buttons{
-      width: 350px;
+      width: 400px;
+      margin-bottom: 0px;
+      margin: auto auto;
     }
     h1{
       font-size: 2.5em;
@@ -248,18 +284,30 @@ text-align: center;
 } 
 
 @media screen and (max-width: 500px) {
-
-
-
   .container{
-      transform: scale(0.7);
-      margin-top: 20px;
-      
+      transform: scale(0.9.5);  
   }
+  .buttons{
+    width: 350px
+  }
+  .description{
+    width: 350px;
+  }
+}
+ @media screen and (max-width: 460px) {
 
-  
+  .tangram{
+    left: -35px;
+   }
  
-} 
+ }
+ @media screen and (max-width: 400px) {
+
+  .tangram{
+    left: -50px;
+   }
+ 
+ }
 
 
   #stars {
